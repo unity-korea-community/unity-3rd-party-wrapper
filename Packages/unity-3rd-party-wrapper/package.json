@@ -1,18 +1,22 @@
 {
-  "name": "com.unko.packagename",
+  "name": "com.unko.3rd-party-wrapper",
   "version": "1.0.0",
-  "displayName": "UNKO packageName",
-  "description": "This is an example package",
+  "displayName": "UNKO 3rd Party Wrapper",
+  "description": "\uc720\ub2c8\ud2f0 \uc778\uc571 \uacb0\uc81c, \uad6c\uae00, \uc560\ud50c, \ud30c\uc774\uc5b4\ubca0\uc774\uc2a4 \ub85c\uadf8\uc778 SDK\uc758 \ub798\ud551 API\uc785\ub2c8\ub2e4.",
   "unity": "2019.1",
   "author": {
     "name": "UNKO",
     "url": "https://github.com/unity-korea-community"
   },
   "bugs": {
-    "url": "https://github.com/unity-korea-community/unity-package-template/issues"
+    "url": "https://github.com/unity-korea-community/unity-3rd-party-wrapper/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/unity-korea-community/unity-package-template.git"
+    "url": "https://github.com/unity-korea-community/unity-3rd-party-wrapper.git"
+  },
+  "dependencies": {
+    "com.unity.purchasing": "4.1.0",
+    "com.unity.ads": "3.7.5"
   }
 }
